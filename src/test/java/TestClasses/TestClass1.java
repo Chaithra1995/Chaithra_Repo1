@@ -48,7 +48,6 @@ public void testNoBroker() throws InterruptedException
 	driver.launchApp();
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	test1.wrongInfoReport();
-
 }
 
 }
