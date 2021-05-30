@@ -28,13 +28,10 @@ public class Report {
 	 public static AndroidDriver<WebElement> driver;
 	 
 public void wrongInfoReport() throws InterruptedException{
-WebElement ContinueBtn = driver.findElement(By.id("com.nobroker.app:id/layout1"));
+//WebElement ContinueBtn = driver.findElement(By.id("com.nobroker.app:id/layout1"));
 
-	Thread.sleep(5000);
-//if(ContinueBtn.isDisplayed())
-//{
-//	ContinueBtn.click();
-//}
+	Thread.sleep(8000);
+
 	driver.navigate().back();
 WebElement AllowBtn = driver.findElement(By.id("com.android.packageinstaller:id/permission_allow_button"));
 //waitForElementLoad("permission_allow_button");
