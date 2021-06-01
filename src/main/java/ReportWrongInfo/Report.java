@@ -103,7 +103,7 @@ public void swipe(Direction direction) throws InterruptedException
 {
 	System.out.println("swipeScreen(): dir: '" + direction + "'");
     final int ANIMATION_TIME = 200;
-    final int PRESS_TIME = 200; 
+    final int PRESS_TIME = 150; 
 Thread.sleep(3000);
     int edgeBorder = 10; 
     PointOption pointOptionStart, pointOptionEnd;
