@@ -30,7 +30,7 @@ public class Report {
 public void wrongInfoReport() throws InterruptedException{
 //WebElement ContinueBtn = driver.findElement(By.id("com.nobroker.app:id/layout1"));
 
-	Thread.sleep(8000);
+	Thread.sleep(6000);
 
 	driver.navigate().back();
 WebElement AllowBtn = driver.findElement(By.id("com.android.packageinstaller:id/permission_allow_button"));
@@ -103,8 +103,8 @@ public void swipe(Direction direction) throws InterruptedException
 {
 	System.out.println("swipeScreen(): dir: '" + direction + "'");
     final int ANIMATION_TIME = 200;
-    final int PRESS_TIME = 150; 
-Thread.sleep(3000);
+    final int PRESS_TIME = 201; 
+Thread.sleep(5000);
     int edgeBorder = 10; 
     PointOption pointOptionStart, pointOptionEnd;
     Dimension dims = driver.manage().window().getSize();
